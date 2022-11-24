@@ -1,0 +1,249 @@
+@charset "UTF-8";
+body {
+  background-image: url("../images/business.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  font-family: "Work Sans", sans-serif;
+}
+body .container-c {
+  padding: 0 5%;
+}
+body .nav-part {
+  background-color: #FCFAF8;
+}
+body .nav-part .menu a {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 30px;
+  margin-right: 30px;
+}
+body .nav-part .icons a {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+body .nav-part a:hover {
+  color: #AED578;
+}
+body .nav-part a:active {
+  color: #AED578;
+}
+body .getStarted-part {
+  background-color: #FCFAF8;
+}
+body .getStarted-part .left-container {
+  padding-left: 2%;
+}
+body .getStarted-part .left-container button {
+  width: 100%;
+  height: 60px;
+  border: none;
+  background-color: #8CC63D;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+body .getStarted-part .left-container button:hover {
+  background-color: #70C600;
+}
+body .getStarted-part .left-container .sub-head {
+  font-size: 20px;
+  font-weight: 600;
+  color: #AED578;
+}
+body .getStarted-part .left-container .main-head {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+body .getStarted-part .left-container .img-part {
+  background-image: url("../images/slider-img.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+body .getStarted-part .left-container .img-part .vl {
+  border-left: 2px dashed black;
+  height: 110px;
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+body .getStarted-part .left-container .img-part p {
+  font-size: 20px;
+}
+body .first-cards-part {
+  background-color: #FCFAF8;
+  padding: 50px;
+}
+body .first-cards-part .card {
+  border: none;
+}
+body .first-cards-part .card .card-body {
+  padding: 30px;
+}
+body .first-cards-part .card .card-body a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: #8CC63D;
+}
+body .first-cards-part .card:hover {
+  border-radius: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: -3px;
+}
+body .progress-bar-part {
+  background: #FCFAF8;
+  padding: 80px;
+}
+body .progress-bar-part .texts {
+  padding: 40px;
+}
+body .progress-bar-part .texts .head {
+  font-size: 35px;
+  font-weight: 600;
+}
+body .progress-bar-part .texts .sub {
+  font-size: 18px;
+}
+body .progress-bar-part .texts .sub-1 {
+  font-size: 20;
+  font-weight: 600;
+}
+body .getInvolved-part {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+body .getInvolved-part .texts {
+  background-color: #FFFFFF;
+  padding: 70px 30px;
+}
+body .getInvolved-part .texts .head {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-weight: 500;
+}
+body .getInvolved-part .texts .sub-head {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+body .getInvolved-part .texts input {
+  width: 80%;
+  margin-top: 10px;
+  padding: 10px;
+  height: 45px;
+  border: none;
+  background-color: #c9c6c5;
+}
+body .getInvolved-part .texts textarea {
+  width: 80%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #c9c6c5;
+}
+body .getInvolved-part .texts textarea:focus, body .getInvolved-part .texts input:focus {
+  outline: none;
+}
+body .getInvolved-part .texts button {
+  width: 80%;
+  height: 50px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #70C600;
+}
+body .join-part {
+  background-color: #FCFAF8;
+}
+body .join-part .head {
+  padding: 100px 100px 0 100px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+body .join-part .sub-head {
+  font-size: 25px;
+  font-weight: 500;
+}
+body .join-part .sub {
+  font-size: 15px;
+}
+body .join-part a {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #70C600;
+  text-decoration: none;
+}
+body .carousel-part {
+  background-color: #FCFAF8;
+  padding: 20px;
+}
+body .carousel-part .texts {
+  padding: 40px;
+}
+body .carousel-part .texts .head {
+  font-size: 40px;
+  font-weight: 600;
+}
+body .carousel-part .texts .sub {
+  font-size: 20px;
+}
+body .carousel-part .texts button {
+  width: 50%;
+  height: 60px;
+  border: none;
+  background-color: #8CC63D;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+body .carousel-part .texts button:hover {
+  background-color: #70C600;
+}
+body .footer-part {
+  padding: 50px;
+  background: #F3EEE9;
+}
+body .footer-part .texts {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body .footer-part .texts p {
+  font-size: 15px;
+}
+body .footer-part .footer-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+body .footer-part .footer-content .head {
+  font-size: 25px;
+  font-weight: 500;
+}
+body .footer-part .footer-content ul {
+  list-style: none;
+}
+body .footer-part .footer-content ul li::before {
+  content: "•";
+  color: #70C600;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 1em;
+  margin-left: -1em;
+}
+body .copyrights-part {
+  background-color: #F3EEE9;
+}
+body .copyrights-part a {
+  text-decoration: none;
+  color: gray;
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,268 @@
+body{
+    background-image: url("../images/business.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    font-family: 'Work Sans', sans-serif;
+
+    .container-c{
+        padding: 0 5%;
+    }
+    .nav-part{
+        background-color: #FCFAF8;
+        .menu{
+            a{
+                color: black ;
+                font-size: 15px;
+                font-weight: 500;
+                padding: 30px;
+                margin-right: 30px;
+            }
+        }
+        .icons{
+            a{
+                color: black ;
+                font-size: 15px;
+                font-weight: 500;
+                margin-right: 30px;
+
+            }
+        }
+        a:hover{
+            color: #AED578;
+        }
+        a:active{
+            color: #AED578;
+        }
+    }
+    .getStarted-part{
+        background-color: #FCFAF8;
+        .left-container{
+            padding-left: 2%;
+            button{
+                width: 100%;
+                height: 60px;
+                border: none;
+                background-color: #8CC63D;
+                font-size: 15px;
+                font-weight: 600;
+                color: white;
+            } 
+            button:hover{
+                background-color: #70C600;
+            } 
+            .sub-head{
+                font-size: 20px;
+                font-weight: 600;
+                color: #AED578;
+            }
+            .main-head{
+                font-size: 50px;
+                font-weight: 500;
+                line-height: 1.2;
+    
+            }
+            .img-part{
+                background-image: url('../images/slider-img.jpg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                .vl {
+                        border-left: 2px dashed black;
+                        height: 110px;
+                        margin-left: 80px;
+                        margin-bottom: 200px;
+    
+                }    
+                p{
+                    font-size: 20px;
+                }  
+                
+    
+            }
+
+        }
+        
+    }
+    .first-cards-part{
+        background-color: #FCFAF8;
+        padding: 50px;
+        .card{
+            border: none;
+            .card-body{
+                padding: 30px;
+                a{
+                    text-decoration: none;
+                    font-size: 15px;
+                    font-weight: 700;
+                    color: #8CC63D;
+                }
+            }
+        }
+        .card:hover{
+            border-radius: 0;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-top: -3px;
+        }
+    }
+    .progress-bar-part{
+        background: #FCFAF8;
+        padding: 80px;
+        .texts{
+            padding: 40px;
+            .head{
+                font-size: 35px;
+                font-weight: 600;
+            }
+            .sub{
+                font-size: 18px;
+            }
+            .sub-1{
+                font-size: 20;
+                font-weight: 600;
+            }
+        }
+    }
+    .getInvolved-part{
+        padding-top:100px ;
+        padding-bottom: 100px;
+        .texts{
+            background-color: #FFFFFF;
+            padding: 70px 30px;
+            .head{
+                text-align: center;
+                margin-bottom: 0px;
+                font-size: 40px;
+                font-weight: 500;
+            }
+            .sub-head{
+                text-align: center;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            input{
+                width: 80%;
+                margin-top: 10px;
+                padding: 10px;
+                height: 45px;
+                border: none;
+                background-color: #c9c6c5;
+            }
+            textarea{
+                width: 80%;
+                margin-top: 10px;
+                padding: 10px;
+                border: none;
+                background-color: #c9c6c5;
+                
+
+            
+            }
+            textarea:focus, input:focus{
+                outline: none;
+            }
+            button{
+                width: 80%;
+                height: 50px;
+                border: none;
+                color: #FFFFFF;
+                font-size: 15px;
+                font-weight: 600;
+                background-color: #70C600;
+            }
+        }
+    }
+    .join-part{
+        background-color: #FCFAF8;
+        .head{
+            padding: 100px 100px 0 100px;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 500;
+        }
+        .sub-head{
+            font-size: 25px;
+            font-weight: 500;
+        }
+        .sub{
+            font-size: 15px;
+            
+        }
+        a{
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #70C600;
+            text-decoration: none;
+        }
+    }
+    .carousel-part{
+        background-color: #FCFAF8;
+        padding: 20px;
+        .texts{
+            padding: 40px;
+            .head{
+                font-size: 40px;
+                font-weight: 600;
+            }
+            .sub{
+                font-size: 20px;
+
+            }
+            button{
+                width: 50%;
+                height: 60px;
+                border: none;
+                background-color: #8CC63D;
+                font-size: 15px;
+                font-weight: 600;
+                color: white;
+            } 
+            button:hover{
+                background-color: #70C600;
+            }
+        }
+    }
+    .footer-part{
+        padding: 50px;
+        background: #F3EEE9;
+        .texts{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            p{
+                font-size: 15px;
+            }
+        }
+
+        .footer-content{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            .head{
+                font-size: 25px;
+                font-weight: 500;
+            }
+            ul {
+                list-style: none; 
+            }
+              
+              ul li::before {
+                content: "\2022"; 
+                color: #70C600; 
+                font-weight: bold; 
+                display: inline-block;
+                margin-bottom: 10px;
+                width: 1em; 
+                margin-left: -1em; 
+            }
+
+        }
+    }
+    .copyrights-part{
+        background-color: #F3EEE9;
+        a{
+            text-decoration: none;
+            color: gray;
+            font-size: 15px;
+        }
+    }
+}
