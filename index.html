@@ -14,9 +14,13 @@
     <link rel="stylesheet" href="./style/glider.min.css">
     <script src="https://kit.fontawesome.com/b4c2bebdfd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style/style.css">
+
+    <!-- glide  -->
+    <link rel="stylesheet" href="./style/glide.core.min.css">
+    <link rel="stylesheet" href="./style/glide.theme.min.css">
     <title>BRIDGE</title>
 </head>
-<body>
+<body >
     <section class="nav-part">
         <div class="container-c">
             <nav class="navbar navbar-expand-lg ">
@@ -95,7 +99,7 @@
                     </p>
                 </div>
                 <div class="col-md-8 offset-md-2 text-center">
-                    <p class="main-head">
+                    <p class="main-head" id="head">
                         Green. That's how we'd like the world to be
                     </p>
                 </div>
@@ -103,10 +107,9 @@
             <div class="col-md-2 col-4 offset-md-5 offset-4 text-center">
                 <button >GET STARTED</button>
             </div>
-            <div class="img-part ">
+            <div class="img-part "id="img">
                 <div class="row">
                     <div class="col-1 offset-2">
-                        <div class="vl"></div>
                     </div>
                     <div class="col-1">
                         <img src="./images/Group 1.png" width="100%">
@@ -177,12 +180,22 @@
                                 <p class="sub-1">75%</p>
                             </div>
                             <div class="col-12">
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
-                                    aria-valuemin="0" aria-valuemax="100" style="width:75%;" >
-                                      <span class="sr-only">75% Complete</span>
-                                    </div>
-                                  </div>
+                                <div class="progress-bar">
+                                    <div class="progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-6">
+                                <p class="sub-1">Energy saving</p>
+                            </div>
+                            <div class="col-6 text-end">
+                                <p class="sub-1">63%</p>
+                            </div>
+                            <div class="col-12">
+                                <div class="progress-bar-2">
+                                    <div class="progress-2"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -198,13 +211,13 @@
                     <p class="sub-head">Don’t throw your future away.</p>
                     <div class="row text-center">
                         <div class="col-12">
-                            <input type="text">
+                            <input type="text" placeholder="Name*">
                         </div>
                         <div class="col-12">
-                            <input type="text">
+                            <input type="text" placeholder="Email*">
                         </div>
                         <div class="col-12">
-                            <textarea type="text"></textarea>
+                            <textarea type="text" placeholder="Message"></textarea>
                         </div>
                         <div class="col-12">
                             <button>SEND MESSAGE</button>
@@ -250,13 +263,13 @@
             <div class="row">
                 <div class="col-12">
                     <div class="glider-contain">
-                        <div class="glider">
+                        <div class="glider" id="glider">
                           <div>
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-md-6">
                                     <img src="./images/carousel-1.jpg" alt="" width="100%">
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-md-6">
                                     <div class="texts">
                                         <p class="head">It’s easy being green- Reduce, Reuse, Recycle.</p>
                                         <p class="sub">Modern technology owes ecology an apology. Recycle takes little effort on your part, for a big difference to our world.</p>
@@ -267,10 +280,10 @@
                           </div>
                           <div>
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-md-6">
                                     <img src="./images/carousel-1.jpg" alt="" width="100%">
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-md-6">
                                     <div class="texts">
                                         <p class="head">It’s easy being green- Reduce, Reuse, Recycle.</p>
                                         <p class="sub">Modern technology owes ecology an apology. Recycle takes little effort on your part, for a big difference to our world.</p>
@@ -289,6 +302,38 @@
 
         
         </div>  
+    </section>
+    <section class="client-part">
+        <div class="container">
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide mr-5">
+                        <img src="./images/client-1.png" alt="" >
+                    </li>
+                    <li class="glide__slide">
+                        <img src="./images/client-2.png" alt="" >
+                    </li>
+                    <li class="glide__slide">
+                        <img src="./images/client-3.png" alt="" >
+        
+                    </li>
+                    <li class="glide__slide">
+                        <img src="./images/client-4.png" alt="" >
+        
+                    </li>
+                    <li class="glide__slide">
+                        <img src="./images/client-5.png" alt="" >
+        
+                    </li>
+                    <li class="glide__slide">
+                        <img src="./images/client-6.png" alt="" >
+        
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="footer-part">
         <div class="container">
@@ -365,16 +410,71 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
 <script src="./js/glider.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
 <script>
 new Glider(document.querySelector('.glider'), {
   slidesToShow: 1,
+  slidesToScroll: 1,
   dots: '#dots',
+  srewind: true, 
   draggable: true,
   arrows: {
     prev: '.glider-prev',
     next: '.glider-next'
   }
 });
+const glider = new Glider(document.getElementById('glider'));
+
+function sliderAuto(slider, miliseconds) {
+ const slidesCount = slider.track.childElementCount;
+ let slideTimeout = null;
+ let nextIndex = 1;
+
+ function slide () {
+   slideTimeout = setTimeout(
+     function () {
+       if (nextIndex >= slidesCount ) {
+         nextIndex = 0;
+       }
+       slider.scrollItem(nextIndex++);
+     },
+     miliseconds
+   );
+ }
+
+ slider.ele.addEventListener('glider-animated', function() {
+   window.clearInterval(slideTimeout);
+   slide();
+ });
+
+ slide();
+}
+
+sliderAuto(glider, 3000)
+var glide = new Glide('.glide', {
+    type: 'carousel',
+    perView: 6,
+    focusAt: 'center',
+    autoplay: 1000,
+    breakpoints: {
+            900:{
+                perView:5
+            },
+            740:{
+                perView:4
+            },
+            600: {
+                perView: 3
+            },
+            480: {
+                perView: 2
+            }
+        }
+    })
+
+    glide.mount()
+
 
 
 
