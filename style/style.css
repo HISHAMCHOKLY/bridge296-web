@@ -6,7 +6,7 @@ html {
 body {
   background-image: url("../images/business.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   font-family: "Work Sans", sans-serif;
 }
@@ -15,6 +15,9 @@ body .container-c {
 }
 body .nav-part {
   background-color: #FCFAF8;
+}
+body .nav-part .nav-logo {
+  width: 100%;
 }
 body .nav-part .m-item {
   color: black;
@@ -236,7 +239,7 @@ body .getStarted-part .left-container .img-part {
           animation-duration: 2.5s;
   padding-bottom: 150px;
   background-image: url("../images/slider-img.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -255,8 +258,8 @@ body .first-cards-part {
 }
 body .first-cards-part .card {
   border: none;
-  transition: margin-top 0.1s;
-  transition-timing-function: linear;
+  transition: all 0.2s ease;
+  cursor: pointer;
 }
 body .first-cards-part .card .card-body {
   padding: 30px;
@@ -269,12 +272,15 @@ body .first-cards-part .card .card-body a {
 }
 body .first-cards-part .card:hover {
   border-radius: 0;
-  margin-top: -5px;
-  box-shadow: 10px 10px 25px #E7E9EB;
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
 }
 body .progress-bar-part {
   background: #FCFAF8;
   padding: 80px;
+}
+body .progress-bar-part img {
+  width: 100%;
 }
 body .progress-bar-part .texts {
   padding: 40px;
@@ -358,6 +364,10 @@ body .getInvolved-part .texts button {
 }
 body .join-part {
   background-color: #FCFAF8;
+  background-color: #FCFAF8;
+}
+body .join-part img {
+  width: 100%;
 }
 body .join-part .head {
   padding: 100px 100px 0 100px;
@@ -451,6 +461,9 @@ body .client-part {
 }
 
 @media only screen and (max-width: 768px) {
+  body .nav-part .nav-logo {
+    width: 60%;
+  }
   body .nav-part .m-item {
     font-size: 15px;
     font-weight: 500;
@@ -464,35 +477,43 @@ body .client-part {
     font-weight: 500;
     padding-right: 20px;
   }
+  body .getStarted-part {
+    padding-bottom: 10px;
+  }
   body .getStarted-part .left-container {
     padding-left: 2%;
   }
   body .getStarted-part .left-container button {
     width: 100%;
-    height: 50px;
+    height: 30px;
     border: none;
+    padding: 0px;
     background-color: #8CC63D;
     font-size: 10px;
     font-weight: 600;
+    margin-bottom: 20px;
     color: white;
   }
   body .getStarted-part .left-container button:hover {
     background-color: #70C600;
   }
   body .getStarted-part .left-container .sub-head {
+    padding-top: 20px;
     font-size: 15px;
     font-weight: 600;
     color: #AED578;
   }
   body .getStarted-part .left-container .main-head {
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 28px;
     font-weight: 500;
     line-height: 1.2;
   }
   body .getStarted-part .left-container .img-part {
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     background-image: url("../images/slider-img.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -509,10 +530,10 @@ body .client-part {
   }
   body .first-cards-part .card {
     border: none;
-    margin-top: 15px;
+    margin-top: 30px;
   }
   body .first-cards-part .card .card-body {
-    padding: 30px;
+    padding: 20px;
   }
   body .first-cards-part .card .card-body a {
     text-decoration: none;
@@ -520,14 +541,12 @@ body .client-part {
     font-weight: 700;
     color: #8CC63D;
   }
-  body .first-cards-part .card:hover {
-    border-radius: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: -3px;
-  }
   body .progress-bar-part {
     background: #FCFAF8;
     padding: 30px;
+  }
+  body .progress-bar-part img {
+    width: 90%;
   }
   body .progress-bar-part .texts {
     padding: 10px;
@@ -589,6 +608,9 @@ body .client-part {
   }
   body .join-part {
     background-color: #FCFAF8;
+  }
+  body .join-part img {
+    width: 90%;
   }
   body .join-part .head {
     padding: 70px 50px 0 50px;
@@ -667,5 +689,62 @@ body .client-part {
     margin-bottom: 10px;
     width: 1em;
     margin-left: -1em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body .carousel-part {
+    padding: 20px;
+  }
+  body .carousel-part .texts {
+    padding: 0px;
+  }
+  body .carousel-part .texts .head {
+    padding: 0px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  body .carousel-part .texts .sub {
+    font-size: 18px;
+  }
+  body .carousel-part .texts button {
+    width: 50%;
+    height: 30px;
+    border: none;
+    background-color: #8CC63D;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+  }
+  body .carousel-part .texts button:hover {
+    background-color: #70C600;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  body .carousel-part {
+    padding: 20px;
+  }
+  body .carousel-part .texts {
+    padding: 0px;
+  }
+  body .carousel-part .texts .head {
+    padding: 0px;
+    font-size: 38px;
+    font-weight: 600;
+  }
+  body .carousel-part .texts .sub {
+    font-size: 20px;
+  }
+  body .carousel-part .texts button {
+    width: 50%;
+    margin-top: 20px;
+    height: 45px;
+    border: none;
+    background-color: #8CC63D;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+  }
+  body .carousel-part .texts button:hover {
+    background-color: #70C600;
   }
 }/*# sourceMappingURL=style.css.map */
