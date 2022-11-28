@@ -41,7 +41,10 @@ body .nav-part .m-icon:active {
   color: #AED578;
 }
 body .getStarted-part {
+  margin-top: -2px;
+  margin-bottom: 0px;
   background-color: #FCFAF8;
+  padding-top: 40px;
 }
 body .getStarted-part .left-container {
   padding-left: 2%;
@@ -224,7 +227,7 @@ body .getStarted-part .left-container .sub-head {
 body .getStarted-part .left-container .main-head {
   font-size: 50px;
   font-weight: 500;
-  line-height: 0.75s;
+  line-height: 1.1;
   position: relative;
   -webkit-animation-name: a-2;
           animation-name: a-2;
@@ -238,6 +241,7 @@ body .getStarted-part .left-container .img-part {
   -webkit-animation-duration: 2.5s;
           animation-duration: 2.5s;
   padding-bottom: 150px;
+  margin-top: 30px;
   background-image: url("../images/slider-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -253,6 +257,7 @@ body .getStarted-part .left-container .img-part p {
   font-size: 20px;
 }
 body .first-cards-part {
+  margin-top: -2px;
   background-color: #FCFAF8;
   padding: 50px;
 }
@@ -273,9 +278,10 @@ body .first-cards-part .card .card-body a {
 body .first-cards-part .card:hover {
   border-radius: 0;
   box-shadow: 5px 6px 6px 2px #e9ecef;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 body .progress-bar-part {
+  margin-top: -1px;
   background: #FCFAF8;
   padding: 80px;
 }
@@ -317,6 +323,7 @@ body .progress-bar-part .progress-bar-2 .progress-2 {
   height: 5px;
 }
 body .getInvolved-part {
+  margin-top: -1px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -363,11 +370,9 @@ body .getInvolved-part .texts button {
   background-color: #70C600;
 }
 body .join-part {
+  margin-top: -1px;
   background-color: #FCFAF8;
   background-color: #FCFAF8;
-}
-body .join-part img {
-  width: 100%;
 }
 body .join-part .head {
   padding: 100px 100px 0 100px;
@@ -390,6 +395,7 @@ body .join-part a {
   text-decoration: none;
 }
 body .carousel-part {
+  margin-top: -1px;
   background-color: #FCFAF8;
   padding: 30px;
 }
@@ -416,7 +422,8 @@ body .carousel-part .texts button:hover {
   background-color: #70C600;
 }
 body .footer-part {
-  padding: 50px;
+  margin-top: -2px;
+  padding: 30px;
   background: #F3EEE9;
 }
 body .footer-part .texts {
@@ -447,6 +454,7 @@ body .footer-part .footer-content ul li::before {
   margin-left: -1em;
 }
 body .copyrights-part {
+  margin-top: -1px;
   background-color: #F3EEE9;
 }
 body .copyrights-part a {
@@ -455,14 +463,15 @@ body .copyrights-part a {
   font-size: 15px;
 }
 body .client-part {
+  margin-top: -1px;
   background-color: #FCFAF8;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   body .nav-part .nav-logo {
-    width: 60%;
+    width: 70%;
   }
   body .nav-part .m-item {
     font-size: 15px;
@@ -498,7 +507,7 @@ body .client-part {
     background-color: #70C600;
   }
   body .getStarted-part .left-container .sub-head {
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 15px;
     font-weight: 600;
     color: #AED578;
@@ -508,7 +517,7 @@ body .client-part {
     padding-bottom: 10px;
     font-size: 28px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.1;
   }
   body .getStarted-part .left-container .img-part {
     padding-bottom: 60px;
@@ -535,9 +544,13 @@ body .client-part {
   body .first-cards-part .card .card-body {
     padding: 20px;
   }
+  body .first-cards-part .card .card-body .card-text {
+    font-size: 13px;
+    font-weight: 500;
+  }
   body .first-cards-part .card .card-body a {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 700;
     color: #8CC63D;
   }
@@ -559,7 +572,7 @@ body .client-part {
     font-size: 15px;
   }
   body .progress-bar-part .texts .sub-1 {
-    font-size: 10;
+    font-size: 12px;
     font-weight: 600;
   }
   body .getInvolved-part {
@@ -609,9 +622,6 @@ body .client-part {
   body .join-part {
     background-color: #FCFAF8;
   }
-  body .join-part img {
-    width: 90%;
-  }
   body .join-part .head {
     padding: 70px 50px 0 50px;
     text-align: center;
@@ -652,7 +662,7 @@ body .client-part {
     height: 30px;
     border: none;
     background-color: #8CC63D;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 600;
     color: white;
   }
@@ -667,31 +677,86 @@ body .client-part {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  body .footer-part .texts img {
+    width: 50%;
+  }
   body .footer-part .texts p {
-    font-size: 15px;
+    font-size: 12px;
   }
   body .footer-part .footer-content {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   body .footer-part .footer-content .head {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
   }
   body .footer-part .footer-content ul {
     list-style: none;
+  }
+  body .footer-part .footer-content li {
+    font-size: 12px;
   }
   body .footer-part .footer-content ul li::before {
     content: "•";
     color: #70C600;
     font-weight: bold;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     width: 1em;
     margin-left: -1em;
   }
+  body .footer-part .footer-content .map {
+    width: 100%;
+  }
+  body .copyrights-part {
+    background-color: #F3EEE9;
+  }
+  body .copyrights-part a {
+    text-decoration: none;
+    color: gray;
+    font-size: 10px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  body .nav-part .nav-logo {
+    width: 50%;
+    margin-left: 90px;
+  }
+  body .nav-part .m-item {
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 10px;
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+  body .nav-part .m-icon {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 20px;
+  }
+  body .first-cards-part {
+    background-color: #FCFAF8;
+    padding: 0px;
+  }
+  body .first-cards-part .card {
+    border: none;
+    margin-top: 30px;
+  }
+  body .first-cards-part .card .card-body {
+    padding: 20px;
+  }
+  body .first-cards-part .card .card-body .card-text {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  body .first-cards-part .card .card-body a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #8CC63D;
+  }
   body .carousel-part {
     padding: 20px;
   }
@@ -717,6 +782,47 @@ body .client-part {
   }
   body .carousel-part .texts button:hover {
     background-color: #70C600;
+  }
+  body .footer-part {
+    padding: 10px;
+    background: #F3EEE9;
+  }
+  body .footer-part .texts {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  body .footer-part .texts img {
+    width: 70%;
+  }
+  body .footer-part .texts p {
+    font-size: 12px;
+  }
+  body .footer-part .footer-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  body .footer-part .footer-content .head {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  body .footer-part .footer-content ul {
+    list-style: none;
+    padding-left: 10px;
+  }
+  body .footer-part .footer-content li {
+    font-size: 10px;
+  }
+  body .footer-part .footer-content ul li::before {
+    content: "•";
+    color: #70C600;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 1em;
+    margin-left: -1em;
+  }
+  body .footer-part .footer-content .map {
+    width: 100%;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -746,5 +852,84 @@ body .client-part {
   }
   body .carousel-part .texts button:hover {
     background-color: #70C600;
+  }
+  body .join-part {
+    background-color: #FCFAF8;
+    background-color: #FCFAF8;
+  }
+  body .join-part img {
+    width: 100%;
+  }
+  body .join-part .head {
+    padding: 100px 100px 0 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  body .join-part .sub-head {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  body .join-part .sub {
+    font-size: 15px;
+  }
+  body .join-part a {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #70C600;
+    text-decoration: none;
+  }
+  body .footer-part {
+    padding: 10px;
+    background: #F3EEE9;
+  }
+  body .footer-part .texts {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  body .footer-part .texts img {
+    width: 70%;
+  }
+  body .footer-part .texts p {
+    font-size: 12px;
+  }
+  body .footer-part .footer-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  body .footer-part .footer-content .head {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  body .footer-part .footer-content ul {
+    list-style: none;
+    padding-left: 10px;
+  }
+  body .footer-part .footer-content li {
+    font-size: 10px;
+  }
+  body .footer-part .footer-content ul li::before {
+    content: "•";
+    color: #70C600;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 1em;
+    margin-left: -1em;
+  }
+  body .footer-part .footer-content .map {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  body .join-part img {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  body .nav-part .nav-logo {
+    margin-left: 100px;
+    width: 80px;
   }
 }/*# sourceMappingURL=style.css.map */
